@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background: #eee;
+  overflow: hidden;
+}
+
+.red {
+  background: red;
+}
+.blue {
+  background: lightblue;
+}
+.gray {
+  background: #444;
+}
+
+::-webkit-scrollbar { 
+  display: none;
+}
+
+main {
+  background: #fff;
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-y: scroll;
+  position: relative;
+
+}
+
+.main-header {
+  width: 100%;
+  height: 15%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.main-header-box {
+  height: 100%;
+  width: 30%;
+}
+
+.main-top {
+  width: 100%;
+  min-height: 30%;
+  margin-bottom: 20px;
+}
+
+.main-top p {
+  margin: 0 0 15px;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.main-bottom {
+  width: 100%;
+  height: 30%;
+  margin-bottom: 20px;
+}
+
+.main-bottom-left {
+  width: 35%;
+  height: 100%;
+  float: left;
+}
+
+.main-bottom-right {
+  width: 65%;
+  height: 100%;
+  float: left;
+}
+
+.main-footer {
+  background: #444;
+  width: 100%;
+  height: 15%;
+}
+
+.main-footer-left {
+  width: 65%;
+  height: 100%;
+  float: left;
+}
+
+.main-footer-right {
+  width: 35%;
+  height: 100%;
+  float: left;
+}
+
+.main-footer-right-box {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
